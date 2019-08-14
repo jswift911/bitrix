@@ -1,0 +1,56 @@
+.color-props{
+    list-style: none;
+    margin: 10px 0;
+}
+.color-props li{
+    float: left;
+    margin-right: 10px;
+    cursor: pointer;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+.color-props li.active-prop{
+    border: 3px solid #cc0000;
+}
+.color-props li div{
+    width: 20px;
+    height: 20px;
+}
+
+.single-bottom1 p{
+    color: #888;
+    padding-top: 2%;
+    font-size: 0.9em;
+    line-height: 1.6em;
+}
+
+.container hr{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+.element{
+    position: relative;
+}
+
+.loader{
+    position: absolute;
+    z-index: 20;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(255,255,255,.7);
+    display: none;
+}
+
+.loader img{
+    position: relative;
+    width: 64px;
+    height: 64px;
+    left: 50%;
+    top: 50%;
+    margin: -32px 0 0 -32px;
+}

@@ -1,0 +1,100 @@
+.item-product {
+    position: relative;
+    height: 380px;
+    background-color: #fff;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.loader {
+    position: absolute;
+    z-index: 20;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, .7);
+    display: none;
+}
+
+.loader img {
+    position: relative;
+    width: 64px;
+    height: 64px;
+    left: 50%;
+    top: 50%;
+    margin: -32px 0 0 -32px;
+}
+
+.item-product:hover {
+    z-index: 3;
+    overflow: visible;
+    background-color: #fff;
+    border: none;
+}
+
+.item-product .view-fifth1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+}
+
+.item-product:hover .view-fifth1 {
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, .19);
+}
+
+.grid_img {
+    height: 307px;
+}
+
+.buy {
+    margin: 20px 0;
+}
+
+.offers form {
+    margin-bottom: 20px;
+}
+
+.input-group-btn2 .btn {
+    border-radius: 0;
+    border-left: 0;
+}
+
+.bx-filter .radio label,
+.bx-filter .checkbox label {
+    display: block;
+}
+
+.products .mens-toolbar {
+    width: 100%;
+}
+
+.products .mens-toolbar .sort {
+    width: auto;
+}
+
+.sort a {
+    font-size: 14px;
+    margin: 0 4px;
+}
+
+.color-props{
+    list-style: none;
+    margin: 10px 0;
+}
+.color-props li{
+    float: left;
+    margin-right: 10px;
+    cursor: pointer;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+.color-props li.active-prop{
+    border: 3px solid #cc0000;
+}
+.color-props li div{
+    width: 20px;
+    height: 20px;
+}

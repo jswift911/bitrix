@@ -1,0 +1,37 @@
+.cats-list{
+    margin: 20px 0;
+}
+.cats-list h1{
+    color: #00405d;
+}
+.cats-list li{
+    float: left;
+    margin-right: 20px;
+    list-style: none;
+}
+.cats-list .img{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 78px;
+    height: 78px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    background-color: #fff;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.cats-list .img:hover{
+    box-shadow: 0 0 0 2px rgba(0,0,0,.2);
+}
+
+.cats-list h2 a{
+    font-size: 14px;
+    color: #00405d;
+}
+.cats-list h2 a:hover{
+    color: red;
+}
