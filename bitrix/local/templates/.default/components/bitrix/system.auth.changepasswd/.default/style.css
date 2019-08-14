@@ -1,0 +1,9 @@
+.contact .login-right span {
+display: flex;
+}
+
+.contact .login-right p span,
+.contact .login-right span b {
+    color: black;
+}
+

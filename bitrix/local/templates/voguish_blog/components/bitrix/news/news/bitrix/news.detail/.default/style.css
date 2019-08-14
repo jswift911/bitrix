@@ -1,0 +1,19 @@
+.fancybox img {
+    border: 1px solid #ccc;
+    box-shadow: 0 0 1px 1px rgba(0,0,0,.1);
+    padding: 4px;
+    margin: 20px 10px;
+    max-width: 90%;
+    height: auto !important;
+    transition: all .5s;
+}
+
+.fancybox img:hover {
+    box-shadow: 0 0 10px #ccc;
+}
+
+.fancy-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

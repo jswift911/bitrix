@@ -1,0 +1,51 @@
+.blog-comment-cont .blog-comment-cont-white{
+	background: rgba(0, 0, 0, 0.09);
+	padding: 2em 2em;
+}
+.blog-comment-cont .blog-comment-info .blog-author{
+	color: #fff;
+	font-weight: 400;
+	font-size: 1.3em;
+	display: block;
+}
+
+.blog-comment-cont .blog-comment-info .blog-comment-date{
+	color: #302e2e;
+	font-size: 1em;
+	font-weight: 400;
+	margin: 1em 0;
+	line-height: 1.8em;
+}
+
+.blog-comment-cont .blog-comment-content{
+	color: #302e2e;
+	font-size: 1em;
+	font-weight: 400;
+	margin: 1em 0;
+	line-height: 1.8em;
+}
+.bx-catalog-tab-list{
+	list-style-type: none;
+}
+.blog-comment-buttons #post-button{
+	font-size: 1em;
+	font-weight: 300;
+	color: #fff;
+	background: #f53f1a;
+	text-transform: uppercase;
+	padding: 0.6em 1em !important;
+	border: none;
+	transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	-webkit-apperance: none;
+	font-family: 'Open Sans', sans-serif;
+	outline: none;
+}
+.blog-comment-buttons #post-button:hover{
+	background: #26313b;
+}
+.respon div.blog-comment-line{
+	background-image: none;
+}
