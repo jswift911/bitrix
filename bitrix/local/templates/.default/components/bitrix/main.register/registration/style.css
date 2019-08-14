@@ -1,0 +1,8 @@
+.contact .login-right span {
+    display: flex;
+}
+
+.contact .login-right p {
+    color: black;
+    margin: 0;
+}
