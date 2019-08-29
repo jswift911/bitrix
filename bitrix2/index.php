@@ -7,10 +7,10 @@ $APPLICATION->SetTitle("Интернет-магазин PAKHI");
             <div class="signing text-right">
                 <div class="container">
                     <div class="sign-in">
-                        <a href="signin.html">Sign In</a>
+                        <a href="\auth">Sign In</a>
                     </div>
                     <div class="sign-up1">
-                        <a href="signin.html">Sign Up</a>
+                        <a href="\auth">Sign Up</a>
                     </div>
                     <div class="clearfix"></div>
                 </div>
@@ -19,7 +19,7 @@ $APPLICATION->SetTitle("Интернет-магазин PAKHI");
                 <i class="shipping"></i>
                 <h3>Shopping Place For Girls</h3>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enimcidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim</p>
-                <a href="products.html">All Products</a>
+                <a href="/catalog/platya/">All Products</a>
             </div>
         </div>
     </div>
